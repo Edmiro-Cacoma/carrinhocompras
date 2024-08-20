@@ -3,8 +3,8 @@ class Cart {
         this.stack = []
     }
 
-    addItem(item, quantity) {
-        this.stack.push({ item, quantity })
+    addItem(item) {
+        this.stack.push({ item})
     }
 
     removeLastItem() {

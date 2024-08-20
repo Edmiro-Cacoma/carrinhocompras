@@ -32,3 +32,13 @@ O backend é desenvolvido utilizando Express.js e TypeScript e utiliza uma pilha
 - `GET /cart/list` - Lista todos os itens no carrinho. Retorna um JSON com a lista de itens. 
   ```json
   { "removedItem": "Nome do Item Removido" }
+
+ ## Frontend
+
+O frontend é construído com React e Vite, utilizando Tailwind CSS para estilização. A interface permite ao usuário adicionar itens ao carrinho, visualizar todos os itens e desfazer a adição do último item.
+
+### Funcionalidades
+
+  - **Adicionar Item: Envia um novo item para o backend e atualiza a lista de itens.
+  - **Mostrar Todos os Itens: Exibe todos os itens no carrinho.
+  - **Desfazer: Remove o último item adicionado e exibe uma notificação.
